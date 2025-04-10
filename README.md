@@ -46,6 +46,7 @@ How to Run:
 
 Clone the repository
 git clone https://github.com/ZainabKhan9/FaceMaskScanner.git
+
 cd FaceMaskScanner
 
 Install dependencies
