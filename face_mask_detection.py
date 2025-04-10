@@ -28,13 +28,7 @@ The objective of this project is to detect the presence of a face mask on human 
 ### **Dataset**
 Click [here](https://www.kaggle.com/prithwirajmitra/covid-face-mask-detection-dataset) to download the dataset.
 
-The use of several datasets was necessary to collect different scenarios:
-- People of different racial and ethnicities
-- Masks of different types
-- Masks in different positions
-- Different Angles
 
-<img align="center" src="https://miro.medium.com/max/875/1*MthYaQRvLAFJQqk65NcIsw.jpeg" width="30%" align="center"/>
 
 # **1. Fetch datasets from kaggle**
 """
@@ -44,10 +38,6 @@ import os
 
 # Create the .kaggle folder in user's home directory if it doesn't exist
 os.makedirs(os.path.expanduser("~/.kaggle"), exist_ok=True)
-
-
-from google.colab import files
-files.upload()  # Upload your kaggle.json here
 
 import shutil
 
